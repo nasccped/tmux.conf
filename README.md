@@ -33,3 +33,12 @@ All sources were taken from the official repositories/links:
 > [!NOTE]
 >
 > All sources are latest version so far. _(28, May - 2025)_
+
+## Extra dependencies
+
+As I've said, this is a guide to install from source code, so... some
+dependencies are required:
+- openssl-devel
+- bison
+
+You can use your package manager.
