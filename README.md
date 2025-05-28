@@ -22,3 +22,14 @@ This repo can be separated into 3 sections ⬇️
 2. the `tars` dir which stores the source tars;
 3. the `unpacked` dir which isn't here, but will be generated during
    the installation.
+
+## The source
+
+All sources were taken from the official repositories/links:
+- `tmux`: https://github.com/tmux/tmux
+- `libevent`: https://libevent.org/
+- `ncurses`: https://invisible-island.net/ncurses/ncurses.html
+
+> [!NOTE]
+>
+> All sources are latest version so far. _(28, May - 2025)_
