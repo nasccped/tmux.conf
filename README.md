@@ -77,3 +77,25 @@ to do is copy+paste to target file. You can do it by running:
 ```sh
 cat ./conf/.bashrc >> $HOME/.bashrc
 ```
+
+> [!TIP]
+>
+> The following section is optional 😉
+
+## Add configs
+
+To clone my tmux configs, you'll need to copy+paste the content from
+`conf/tmux.conf` to your `.config` path:
+
+1. Ensure that you already have a `tmux config` path:
+```sh
+mkdir -p $HOME/.config/tmux
+```
+2. Copy the config to your `config path`:
+```sh
+cp conf/tmux.conf $HOME/.config/tmux/
+```
+3. Toggle on the config file (outside a tmux session):
+```sh
+tmux source $HOME/.config/tmux/tmux.conf
+```
