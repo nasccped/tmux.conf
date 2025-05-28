@@ -42,3 +42,25 @@ dependencies are required:
 - bison
 
 You can use your package manager.
+
+## Building
+
+I've added a simple install script for each source tarball. They're
+at `tars` directory 🤓 ☝️
+
+You don't need to extract the files! The script will do everything
+for you! Just do:
+
+```sh
+./install-<SOURCE_NAME>.sh
+```
+
+> [!TIP]
+>
+> For this step, I highly recommend to follow this steps:
+> 1. libevent
+> 2. ncurses
+> 3. tmux
+
+After all, you'll have tmux installed in your machine.
+_(BUT YOU'LL NEED TO ADD IT TO YOUR GLOBAL PATH)_
