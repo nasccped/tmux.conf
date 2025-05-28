@@ -52,6 +52,7 @@ You don't need to extract the files! The script will do everything
 for you! Just do:
 
 ```sh
+chmode +x ./install-<SOURCE_NAME>.sh # turn into executable
 ./install-<SOURCE_NAME>.sh
 ```
 
