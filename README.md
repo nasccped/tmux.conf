@@ -64,3 +64,16 @@ for you! Just do:
 
 After all, you'll have tmux installed in your machine.
 _(BUT YOU'LL NEED TO ADD IT TO YOUR GLOBAL PATH)_
+
+## Add to path
+
+To add the built tmux to your global path, you'll need to change the
+`.bashrc` file at your `$HOME`! _(valid only for `bash`. Different
+approach for other shells)_
+
+All the `.bashrc` content is located at `conf/.bashrc`. All you need
+to do is copy+paste to target file. You can do it by running:
+
+```sh
+cat ./conf/.bashrc >> $HOME/.bashrc
+```
