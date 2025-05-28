@@ -18,7 +18,7 @@ Here's my configuration repository for tmux and it's dependencies ⚙️
 ## FTree explanation
 
 This repo can be separated into 3 sections ⬇️
-1. the `conf` dir which stores the tmux config file;
+1. the `conf` dir which stores the tmux config file and path config;
 2. the `tars` dir which stores the source tars;
 3. the `unpacked` dir which isn't here, but will be generated during
    the installation.
