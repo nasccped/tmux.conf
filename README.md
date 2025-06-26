@@ -40,6 +40,8 @@ As I've said, this is a guide to install from source code, so... some
 dependencies are required:
 - openssl-devel
 - bison
+- xclip _(I've set `xclip` as default copy tool (in vi mode). You can
+  edit it within `conf/tmux.conf`)_
 
 You can use your package manager.
 
