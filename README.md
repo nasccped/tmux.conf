@@ -102,3 +102,14 @@ cp conf/tmux.conf $HOME/.config/tmux/
 ```sh
 tmux source $HOME/.config/tmux/tmux.conf
 ```
+
+## Extra tips
+
+About compiling. As I sayed, I've built this repo using VoidLinux
+distro and all as working fine. But when trying to use the same
+scripts in Archlinux, I've got an error message from the compiler.
+It wasn't a dependency issue, but a source code issue (it shouldn't
+happen, is the same source, wtf). So, I've used the Archlinux
+package manager (`pacman`) and just copied the `conf/tmux.conf` to
+the appropriate directory (working fine now). Give a try to your OS
+package manager!
